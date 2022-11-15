@@ -1,14 +1,143 @@
+:root {
+    --bodyColor:#212121;
+    --hoverColor:#2196F3;
+    --backgroundColor:#E5E5E5;
+    --grayColor: #757575;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    font-size: 14px;
+    color: var(--bodyColor);
 }
 a {
-    color:#212121;
+    color: var(--bodyColor);
     text-decoration: none;
+    cursor: default;
 } 
 a:hover {
-    color: #2196F3;
+    color: var(--hoverColor);
 }
 li {
     list-style: none;
 }
+/* Propiedades del header */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--hoverColor);
+} 
+.links > li {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.links-contact {
+    color: var(--grayColor);
+}
+/* Titulo principal */
+.main-header, footer {
+    background: #2F303A;
+    margin: 0;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+button {
+    cursor: pointer;
+}
+.btn-blue {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: var(--hoverColor);
+}
+.btn-light {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.btn-light:hover {
+    color: #FFFFFF;
+    background: var(--hoverColor);
+}
+.features > li > h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features > li > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;   
+    color: var(--grayColor);
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.staff > figcaption {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.staff > figcaption > span {
+    font-weight: 500;
+} 
+address {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+address > a {
+    color: rgba(255, 255, 255, 0.6);    
+}
+/* items en pagina portafolio */
+.item > figcaption {
+    font-size: 16px;
+    line-height: 30px;    
+    letter-spacing: 0.03em;   
+    color: var(--grayColor);
+}
+.item > figcaption > span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;    
+    letter-spacing: 0.06em;
+    color: var(--bodyColor);
+}
+.social-nets > p {
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;   
+    color: #FFFFFF;
+} 
+.social-nets > ul > li {
+    display: inline;
+}
+.social-nets > ul {
+    padding: 0;
+}
+
