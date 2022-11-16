@@ -18,6 +18,9 @@ a {
 a:hover {
     color: var(--hoverColor);
 }
+a:focus {
+    color: var(--hoverColor);
+}
 li {
     list-style: none;
 }
